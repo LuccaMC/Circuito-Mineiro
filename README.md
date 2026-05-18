@@ -18,10 +18,8 @@ O site tem como público-alvo pessoas de Minas Gerais e do
 Brasil inteiro, apresentando informações sobre diferentes
 pontos turísticos dentro do estado de Minas Gerais.
 
-
 ✦ ESTRUTURA / LAYOUT DO SITE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
 
 ▸ 1ª PÁGINA
 ──────────────────────────────────────────────────────────────
@@ -31,17 +29,14 @@ pontos turísticos dentro do estado de Minas Gerais.
    • "Home" (âncora) → leva até a 1ª página do site;
    • "Deixe sua sugestão" (âncora) → leva até o footer;
    • "About Us" (âncora) → leva à última página do site;
-
+   
 ◆ Mapa clicável de Minas Gerais
    • Centro da tela;
-   • Marcadores nas cidades que o site possui (âncoras)
-     → levam até as respectivas cidades;
-
+   • Marcadores nas cidades que o site possui (âncoras) → levam até as respectivas cidades;
+     
 ◆ Cidades
-   • Será apresentado como um grande flash-card horizontal
-     com o nome sobrepondo;
+   • Será apresentado como um grande flash-card horizontal com o nome sobrepondo;
    • Flash-card (âncora) → leva até a página da respectiva cidade;
-
 
 ━━━━━━━━━━ Belo Horizonte ━━━━━━━━━━
    • Lagoa da Pampulha
@@ -111,8 +106,7 @@ pontos turísticos dentro do estado de Minas Gerais.
 ◆ Pequena descrição da cidade;
 
 ◆ Pontos turísticos [3-5]
-   • Imagem à direita e descrição à esquerda
-     (inverter a cada ponto turístico apresentado);
+   • Imagem à direita e descrição à esquerda (inverter a cada ponto turístico apresentado);
 
 ◆ Footer
    • "Formulário";
