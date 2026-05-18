@@ -1,7 +1,7 @@
+# Circuito-Mineiro
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
                 README — PROJETO SITE TURISMO MG
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-# Circuito-Mineiro
 Projeto acadêmico desenvolvido por estudantes de Ciência da 
 Computação da FUMEC, criado para valorizar os pontos turísticos
 de Minas Gerais por meio de uma experiência web interativa e 
