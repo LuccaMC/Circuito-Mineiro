@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f7fa;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* HEADER */
+
+header {
+    width: 100%;
+    background-color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 8%;
+
+    position: sticky;
+    top: 0;
+
+    z-index: 1000;
+
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.logo {
+    width: 130px;
+}
+
+.links {
+    display: flex;
+    gap: 30px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+.links a:hover {
+    color: #037559;
+}
+
+/* TÍTULO */
+
+h2 {
+    text-align: center;
+
+    font-size: 38px;
+
+    margin-top: 70px;
+    margin-bottom: 50px;
+
+    color: #222;
+
+    padding: 0 20px;
+}
+
+/* FORMULÁRIO */
+
+form {
+    width: 90%;
+    max-width: 600px;
+
+    margin: 0 auto 80px auto;
+
+    background-color: white;
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+label {
+    display: block;
+
+    margin-bottom: 10px;
+
+    font-weight: bold;
+
+    color: #333;
+}
+
+input {
+    width: 100%;
+
+    padding: 15px;
+
+    border: 1px solid #dcdcdc;
+
+    border-radius: 12px;
+
+    font-size: 16px;
+
+    margin-bottom: 25px;
+
+    transition: 0.3s;
+
+    outline: none;
+}
+
+input:focus {
+    border-color: #037559;
+
+    box-shadow: 0 0 0 4px rgba(3,117,89,0.15);
+}
+
+/* BOTÕES */
+
+button {
+    padding: 15px 25px;
+
+    border: none;
+
+    border-radius: 12px;
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+    margin-right: 10px;
+}
+
+button[type="submit"] {
+    background-color: #037559;
+    color: white;
+}
+
+button[type="submit"]:hover {
+    background-color: #025743;
+}
+
+button[type="reset"] {
+    background-color: #e5e7eb;
+    color: #333;
+}
+
+button[type="reset"]:hover {
+    background-color: #d1d5db;
+}
+
+/* FOOTER */
+
+.rodape {
+    margin-top: auto;
+
+    background-color: #111827;
+
+    padding: 60px 20px;
+
+    text-align: center;
+}
+
+.color {
+    color: white;
+
+    font-size: 30px;
+
+    margin-bottom: 10px;
+}
+
+.cor {
+    color: #b0b7c3;
+
+    font-size: 16px;
+}
+
+/* RESPONSIVO */
+
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .links {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    form {
+        padding: 30px 20px;
+    }
+
+    button {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
