@@ -1,6 +1,10 @@
+css
+
+
+
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -8,7 +12,7 @@ body {
     background-color: #f5f7fa;
     font-family: Arial, Helvetica, sans-serif;
     color: #333;
-    line-height: 1.6;
+    line-height: 1.6rem;
 }
 
 /* HEADER */
@@ -43,7 +47,7 @@ header {
 .links a {
     text-decoration: none;
     color: #333;
-    font-weight: 600;
+    font-weight: 600px;
     transition: 0.3s;
 }
 
@@ -55,9 +59,9 @@ header {
 
 .faixa {
     width: 100%;
-    min-height: 400px;
+    min-height: 350px;
 
-    background: linear-gradient(rgba(3, 117, 89, 0.85),
+    background: linear-gradient(rgba(3, 117, 54, 0.85),
             rgba(3, 117, 89, 0.85));
 
     display: flex;
@@ -82,6 +86,39 @@ header {
 
     max-width: 700px;
 }
+
+.faixamenor {
+    width: 100%;
+    min-height: 300px;
+
+    line-height: 2.2rem;
+
+    background: linear-gradient(rgba(3, 117, 54, 0.85),
+            rgba(3, 117, 89, 0.85));
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 40px 20px;
+}
+
+.faixamenor h1 {
+    font-size: 55px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.faixamenor h4 {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.85);
+
+    max-width: 700px;
+}
+
 
 /* TITULOS */
 
@@ -114,6 +151,36 @@ p {
     gap: 30px;
 }
 
+.justif {
+    /* Largura máxima da "caixa" do texto */
+    max-width: 900px;
+
+    
+
+    /* Centraliza a "caixa" horizontalmente */
+    margin: 0px auto;
+
+    text-align: center;
+
+    font-size: 22px;
+
+    /* Espaçamento entre as linhas */
+    line-height: 1.4rem;
+
+    color: #243b5a;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.justif h3 {
+    margin-top: 3.5rem;
+}
+
+/* Estilo dos parágrafos */
+.justif p {
+    margin-top: 2.5rem;
+}
+
 /* CARD */
 
 .card {
@@ -127,7 +194,7 @@ p {
 
     cursor: pointer;
 
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.12);
 
     transition: 0.4s;
 }
@@ -147,6 +214,88 @@ p {
 
 .card:hover img {
     transform: scale(1.08);
+}
+
+/* CONTAINER DOS CARDS */
+.container {
+
+    /* Coloca os cards um do lado do outro */
+    display: flex;
+
+    /* Espaço entre os cards */
+    gap: 30px;
+
+    /* Centraliza os cards horizontalmente */
+    justify-content: center;
+
+    /* Faz os cards quebrarem linha quando faltar espaço */
+    flex-wrap: wrap;
+
+    padding: 20px;
+    
+}
+
+.card {
+
+    /* Largura */
+    width: 300px;
+
+    height: 600px;
+    background-color: white;
+
+    /* Arredondar as bordas */
+    border-radius: 25px;
+
+    /* Esconde partes que ultrapassam o card */
+    overflow: hidden;
+
+    /* Sombra do card */
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+.card img {
+
+    /* Faz a imagem ocupar toda largura do card */
+    width: 100%;
+
+    /* Altura da imagem */
+    height: 210px;
+
+    /* Faz a imagem preencher corretamente sem deformar */
+    object-fit: cover;
+
+}
+
+
+/* CONTEÚDO */
+.conteudo {
+
+    padding: 15px;
+}
+
+
+/* NOME */
+.conteudo h3 {
+
+    color: #1c3557;
+
+    /* */
+    margin-top: 0px;
+
+    /* Espaço embaixo do título */
+    margin-bottom: 10px;
+
+    text-align: left;
+}
+
+
+/* CARGO */
+.conteudo h4 {
+
+    color: green;
+
+    /* Espaço embaixo */
+    margin-bottom: 10px;
 }
 
 /* OVERLAY */
@@ -217,6 +366,13 @@ p {
     font-size: 16px;
 }
 
+.mudcor {
+    background-color: #f0ecec;
+}
+
+.mudcor h3 {
+    margin-top: 2.5rem;
+}
 /* RESPONSIVO */
 
 @media (max-width: 768px) {
