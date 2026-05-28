@@ -15,9 +15,8 @@
         <img class="logo" src="image/logo_site.png" alt="logo do site">
 
         <div class="links">
-            <a href="">Home</a>
-            <a href="pages/sugestao.html">Deixe sua Sugestão</a>
             <a href="pages/sobre_nos.html">Sobre nós</a>
+            <a href="#finalpag">Deixe sua Sugestão</a>
         </div>
 
     </header>
@@ -31,9 +30,16 @@
     <h3>Mapa Interativo</h3>
     <p>clique nos marcadores para conhecer cada cidade</p>
 
-    <p>
-        MAPA
-    </p>
+    <img class="mapa" usemap="#mapaMinas" src="image/mapa_minas.png.png" alt="Mapa de Minas Gerais">
+
+    <map name="mapaMinas">
+        <area shape="circle" coords="323,267,23" href="pages/belo_horizonte.html" alt="Belo Horizonte">
+        <area shape="circle" coords="356,307,23" href="" alt="Nova Lima">
+        <area shape="circle" coords="150,247,23" href="" alt="Uberlândia">
+        <area shape="circle" coords="278,191,23" href="" alt="Diamantina">
+        <area shape="circle" coords="300,315,23" href="" alt="Ouro Preto">
+        <area shape="circle" coords="421,220,24" href="" alt="Governador Valadares">
+    </map>
 
     <h3>Cidades em Destaque</h3>
     <p>Conheça os principais destinos turísticos de Minas Gerais</p>
@@ -41,7 +47,7 @@
     <div class="grid">
 
         <div class="card">
-            <img src="image/! Belo Horizonte.png">
+            <a href="pages/belo_horizonte.html"><img src="image/! Belo Horizonte.png"></a>
 
             <div class="overlay">
                 <span>📍 Minas Gerais</span>
@@ -51,7 +57,7 @@
         </div>
 
         <div class="card">
-            <img src="image/! Ouro Preto.png">
+            <a href="pages/ouro_preto.html"><img src="image/! Ouro Preto.png"></a>
 
             <div class="overlay">
                 <span>📍 Minas Gerais</span>
@@ -59,18 +65,9 @@
                 <p>Cidade histórica Patrimônio Mundial da UNESCO, com arquitetura colonial barroca preservada...</p>
             </div>
         </div>
-        <div class="card">
-            <img src="image/! Ouro Preto.png">
-
-            <div class="overlay">
-                <span>📍 Minas Gerais</span>
-                <h2>Viçosa</h2>
-                <p>Cidade universitária encantadora, conhecida pela UFV e por suas belezas naturais. Cercada por...</p>
-            </div>
-        </div>
 
         <div class="card">
-            <img src="image/! Ouro Preto.png">
+            <a href="pages/uberlandia.html"><img src="image/! Uberlandia.png"></a>
 
             <div class="overlay">
                 <span>📍 Minas Gerais</span>
@@ -80,17 +77,7 @@
         </div>
 
         <div class="card">
-            <img src="image/! Ouro Preto.png">
-
-            <div class="overlay">
-                <span>📍 Minas Gerais</span>
-                <h2>Poços de Caldas</h2>
-                <p>Estância e hidromineral famosa por suas águas termais e paisagens montanhosas. A cidade oferec...</p>
-            </div>
-        </div>
-
-        <div class="card">
-            <img src="image/! Ouro Preto.png">
+            <a href="pages/nova_lima.html"><img src="image/! Nova Lima.png"></a>
 
             <div class="overlay">
                 <span>📍 Minas Gerais</span>
@@ -98,20 +85,21 @@
                 <p>Município da região metropolitana de Belo Horizonte, combina áreas urbanas sofisticadas co...</p>
             </div>
         </div>
-        
+
         <div class="card">
-            <img src="image/! Ouro Preto.png">
+            <a href="pages/governador_valadares.html"><img src="image/! Governador Valadares.png"></a>
 
             <div class="overlay">
                 <span>📍 Minas Gerais</span>
                 <h2>Governador Valadares</h2>
-                <p>Conhecida como "Princesinha do Vale", famosa pelo voo livre no Pico da Ibituruna. Às margens do Rio...</p>
+                <p>Conhecida como "Princesinha do Vale", famosa pelo voo livre no Pico da Ibituruna. Às margens do
+                    Rio...</p>
             </div>
         </div>
-        
+
 
         <div class="card">
-            <img src="image/! Ouro Preto.png">
+            <a href="pages/diamantina.html"><img src="image/! Diamantina.png"></a>
 
             <div class="overlay">
                 <span>📍 Minas Gerais</span>
@@ -123,9 +111,14 @@
     </div>
 
     <footer class="rodape">
+        <footer id="finalpag">
+            <a href="#finalpag"></a>
+        </footer>
+        <p class="cor">Projeto acadêmico desenvolvido por alunos da FUMEC — 2026</p>
+        <hr>
         <h3 class="color">Sugira uma Cidade</h3>
         <p class="cor">Ajude-nos a expandir nosso guia turísticos de Minas Gerais</p>
-
+        <a class="btn" href="./pages/sugestao.html">Sugira uma cidade</a>
     </footer>
 
 </body>
