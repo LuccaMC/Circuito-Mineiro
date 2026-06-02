@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <title>Belo Horizonte</title>
     <link rel="stylesheet" href="../css/style_cidades.css">
+    <script src="../js/modal.js" defer></script>
 </head>
 
 <body>
@@ -68,10 +69,44 @@
         </footer>
         <p class="cor">Projeto acadêmico desenvolvido por alunos da FUMEC — 2026</p>
         <hr>
-        <h3 class="color">Sugira uma Cidade</h3>
-        <p class="cor">Ajude-nos a expandir nosso guia turísticos de Minas Gerais</p>
+        <h3 class="color">Planeje sua viagem</h3>
+        <p class="cor">Clique no botão e faça uma estimativa dos gastos da sua viagem para essa cidade maravilhosa!</p>
 
-        <a class="btn" href="../pages/sugestao.html">Sugira uma cidade</a>
+        <button class="btn-modal" id="open-modal">Planejar Viagem</button>
+        <div id="fade" class="hide"></div>
+        <div id="modal" class="hide">
+            <div class="modal-header">
+               <h2>Planejar viagem</h2>
+               <button class="btn-close" id="close-modal">Fechar</button>
+            </div>
+            <div class="modal-body">
+                <form class="form-viagem">
+
+    <h2>Planeje sua viagem</h2>
+
+    <label>Distância até a cidade (km)</label>
+    <input type="number" placeholder="Ex: 250">
+
+    <label>Quantidade de pessoas</label>
+    <input type="number" placeholder="Ex: 4">
+
+    <label>Quantidade de dias</label>
+    <input type="number" placeholder="Ex: 3">
+
+    <label>Transporte</label>
+    <select>
+        <option>Carro</option>
+        <option>Ônibus</option>
+        <option>Avião</option>
+    </select>
+
+    <button type="submit">
+        Calcular viagem
+    </button>
+
+</form>
+            </div>
+        </div>
     </footer>
 
 </body>
