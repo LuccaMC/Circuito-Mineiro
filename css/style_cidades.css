@@ -209,6 +209,23 @@ h2 {
     background-color: #025c46;
 }
 
+.btn-reset {
+    margin-top: 10px;
+    background-color: #b91c1c;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.btn-reset:hover {
+    background-color: #991b1b;
+}
+
 .btn-close {
     background-color: #b10000;
     color: white;
@@ -246,7 +263,7 @@ h2 {
 /* modal */
 
 #modal {
-    padding: 2rem;
+    padding: 1.5rem;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -255,8 +272,10 @@ h2 {
     z-index: 10;
     width: 500px;
     max-width: 90%;
-    border-radius: 16px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    max-height: 90vh;
+    overflow-y: auto;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 .modal-header {
@@ -274,6 +293,10 @@ h2 {
 #fade.hide {
     opacity: 0;
     pointer-events: none;
+}
+
+#modal.hide {
+    top: 0;
 }
 
 /* FORM */
@@ -319,6 +342,64 @@ h2 {
 
 .form-viagem button:hover {
     background-color: #025c46;
+}
+
+/* CAIXA DO RESULTADO */
+
+.resultado-box {
+    margin-top: 25px;
+
+    background-color: #f9fafb;
+
+    border-radius: 18px;
+
+    padding: 20px;
+
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+
+    border: 1px solid #e5e7eb;
+}
+
+.resultado-box h3 {
+    text-align: center;
+
+    color: #037559;
+
+    margin-bottom: 15px;
+
+    font-size: 22px;
+}
+
+/* RESULTADO */
+
+#resultado {
+    text-align: center;
+
+    line-height: 2rem;
+
+    color: #374151;
+
+    font-size: 16px;
+}
+
+#resultado p {
+    margin-bottom: 8px;
+}
+
+#resultado strong {
+    color: #111827;
+
+    font-size: 18px;
+}
+
+#resultado hr {
+    border: none;
+
+    height: 1px;
+
+    background-color: #d1d5db;
+
+    margin: 15px 0;
 }
 
 
