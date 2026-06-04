@@ -48,7 +48,7 @@ header {
 
 /* FAIXA */
 
-.faixa {
+.faixa-bh {
     width: 100%;
     height: 320px;
 
@@ -66,7 +66,7 @@ header {
     margin-bottom: 70px;
 }
 
-.faixa h3 {
+.faixa-bh h3 {
     color: white;
 
     font-size: 60px;
@@ -74,6 +74,135 @@ header {
     font-weight: bold;
 }
 
+.faixa-dia {
+    width: 100%;
+    height: 320px;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45),
+            rgba(0, 0, 0, 0.45)),
+        url("../image/! Diamantina.png");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 70px;
+}
+
+.faixa-dia h3 {
+    color: white;
+
+    font-size: 60px;
+
+    font-weight: bold;
+}
+
+.faixa-gov {
+    width: 100%;
+    height: 320px;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45),
+            rgba(0, 0, 0, 0.45)),
+        url("../image/! Governador Valadares.png");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 70px;
+}
+
+.faixa-gov h3 {
+    color: white;
+
+    font-size: 60px;
+
+    font-weight: bold;
+}
+
+.faixa-nl {
+    width: 100%;
+    height: 320px;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45),
+            rgba(0, 0, 0, 0.45)),
+        url("../image/! Nova Lima.png");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 70px;
+}
+
+.faixa-nl h3 {
+    color: white;
+
+    font-size: 60px;
+
+    font-weight: bold;
+}
+
+.faixa-op {
+    width: 100%;
+    height: 320px;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45),
+            rgba(0, 0, 0, 0.45)),
+        url("../image/! Ouro Preto.png");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 70px;
+}
+
+.faixa-op h3 {
+    color: white;
+
+    font-size: 60px;
+
+    font-weight: bold;
+}
+
+.faixa-ube {
+    width: 100%;
+    height: 320px;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45),
+            rgba(0, 0, 0, 0.45)),
+        url("../image/! Uberlandia.png");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 70px;
+}
+
+.faixa-ube h3 {
+    color: white;
+
+    font-size: 60px;
+
+    font-weight: bold;
+}
 /* DESCRIÇÃO */
 
 body>p {

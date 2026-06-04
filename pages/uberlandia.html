@@ -4,8 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <title>Belo Horizonte</title>
+    <title>Uberlândia - Circuito Mineiro</title>
     <link rel="stylesheet" href="../css/style_cidades.css">
+    <link rel="icon" type="logo_site" href="../image/logo_site.png">
+    <script src="../js/modal.js" defer></script>
+    <script src="../js/calculo.js"></script>
 </head>
 
 <body>
@@ -15,12 +18,12 @@
         <img class="logo" src="../image/logo_site.png" alt="logo do site">
 
         <div class="links">
-            <a href="../index.html">Home</a>
+            <a href="../pagPrincipal.html">Home</a>
             <a href="#finalpag">Deixe sua Sugestão</a>
             <a href="../pages/sobre_nos.html">Sobre nós</a>
         </div>
     </header>
-    <div class="faixa">
+    <div class="faixa-ube">
         <h3>Uberlândia</h3>
     </div>
 
@@ -40,7 +43,8 @@
         <h3>Parque Municipal Victório Siquierolli</h3>
         <p>Área verde preservada no coração da cidade, ideal para caminhadas e exercícios ao ar livre. Com trilhas
             arborizadas e espaços de contemplação, é refúgio de paz para os uberlandenses.</p>
-        <img class="card-img" src="../image/ParqueMunicipalVictórioSiquierolli.png" alt="ParqueMunicipalVictórioSiquierolli">
+        <img class="card-img" src="../image/ParqueMunicipalVictórioSiquierolli.png"
+            alt="ParqueMunicipalVictórioSiquierolli">
     </div>
 
     <div class="bloco">
@@ -59,10 +63,52 @@
         </footer>
         <p class="cor">Projeto acadêmico desenvolvido por alunos da FUMEC — 2026</p>
         <hr>
-        <h3 class="color">Sugira uma Cidade</h3>
-        <p class="cor">Ajude-nos a expandir nosso guia turísticos de Minas Gerais</p>
+        <h3 class="color">Planeje sua viagem</h3>
+        <p class="cor">Clique no botão e faça uma estimativa dos gastos da sua viagem para essa cidade maravilhosa!</p>
 
-        <a class="btn" href="../pages/sugestao.html">Sugira uma cidade</a>
+        <button class="btn-modal" id="open-modal">Planejar Viagem</button>
+        <div id="fade" class="hide"></div>
+        <div id="modal" class="hide">
+            <div class="modal-header">
+                <h2>Planejar viagem</h2>
+                <button class="btn-close" id="close-modal">Fechar</button>
+            </div>
+            <div class="modal-body">
+                <form class="form-viagem">
+
+
+                    <form class="form-viagem">
+
+                        <label>Distância até a cidade (km)</label>
+                        <input type="number" id="distancia" placeholder="Ex: 250">
+
+                        <label>Quantidade de pessoas</label>
+                        <input type="number" id="pessoas" placeholder="Ex: 4">
+
+                        <label>Quantidade de dias</label>
+                        <input type="number" id="dias" placeholder="Ex: 3">
+
+                        <label>Transporte</label>
+
+                        <select id="transporte">
+                            <option value="" selected disabled> Selecione uma opção</option>
+                            <option value="carro">Carro</option>
+                            <option value="onibus">Ônibus</option>
+                            <option value="aviao">Avião</option>
+                        </select>
+
+                        <button type="button" onclick="calcularViagem()">Calcular viagem</button>
+                        <button type="button" class="btn-reset" onclick="limparResultado()">Limpar</button>
+
+                    </form>
+
+                    <div class="resultado-box">
+                        <div id="resultado"></div>
+
+                    </div>
+
+            </div>
+        </div>
     </footer>
 
 </body>
