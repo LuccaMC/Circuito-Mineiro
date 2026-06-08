@@ -1,152 +1,170 @@
-# Circuito-Mineiro
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-                README — PROJETO SITE TURISMO MG
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Projeto acadêmico desenvolvido por estudantes de Ciência da 
-Computação da FUMEC, criado para valorizar os pontos turísticos
-de Minas Gerais por meio de uma experiência web interativa e 
-colaborativa.
+# 🏔️ Circuito-Mineiro — Site de Turismo em Minas Gerais
 
-✦ OBJETIVO DO TRABALHO
-──────────────────────────────────────────────────────────────
+🔗 **Site:** [melodious-kringle-a5b6b6.netlify.app](https://melodious-kringle-a5b6b6.netlify.app/)  
+📁 **Repositório:** [github.com/LuccaMC/Circuito-Mineiro](https://github.com/LuccaMC/Circuito-Mineiro)  
+🏫 **Instituição:** Fundação Mineira de Educação e Cultura (FUMEC)  
+📚 **Curso:** Ciência da Computação — 1º Período  
+📖 **Disciplina:** Desenvolvimento Web  
+👥 **Equipe:** Lucca Mattos · Maurício Lima · Daniel Silva · Júlio Cesar  
 
-Desenvolver um site utilizando HTML, CSS e JS com foco em
-auxiliar pessoas que possuem interesse ou curiosidade sobre
-o turismo em Minas Gerais.
+---
 
-O site tem como público-alvo pessoas de Minas Gerais e do
-Brasil inteiro, apresentando informações sobre diferentes
-pontos turísticos dentro do estado de Minas Gerais.
+## Sumário
 
-✦ ESTRUTURA / LAYOUT DO SITE
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. [Visão Geral](#1-visão-geral)
+2. [Objetivos](#2-objetivos)
+3. [Público-Alvo](#3-público-alvo)
+4. [Tecnologias Utilizadas](#4-tecnologias-utilizadas)
+5. [Estrutura do Projeto](#5-estrutura-do-projeto)
+6. [Funcionalidades](#6-funcionalidades)
+7. [Organização das Páginas](#7-organização-das-páginas)
+8. [Cidades e Pontos Turísticos](#8-cidades-e-pontos-turísticos)
+9. [Como Executar o Projeto](#9-como-executar-o-projeto)
+10. [Equipe](#10-equipe)
 
-▸ 1ª PÁGINA
-──────────────────────────────────────────────────────────────
+---
 
-◆ Header Fixo
-   • "Logo + Nome" à esquerda;
-   • "Home" (âncora) → leva até a 1ª página do site;
-   • "Deixe sua sugestão" (âncora) → leva até o footer;
-   • "About Us" (âncora) → leva à última página do site;
-   
-◆ Mapa clicável de Minas Gerais
-   • Centro da tela;
-   • Marcadores nas cidades que o site possui (âncoras) → levam até as respectivas cidades;
-     
-◆ Cidades
-   • Será apresentado como um grande flash-card horizontal com o nome sobrepondo;
-   • Flash-card (âncora) → leva até a página da respectiva cidade;
+## 1. Visão Geral
 
-━━━━━━━━━━ Belo Horizonte ━━━━━━━━━━
-   • Lagoa da Pampulha
-   • Praça da Liberdade
-   • Palácio das Artes
+O Circuito-Mineiro é um projeto acadêmico de desenvolvimento web criado por estudantes do 1º período do curso de Ciência da Computação da FUMEC. O projeto consiste em um site informativo e interativo com o propósito de valorizar e divulgar os principais pontos turísticos do estado de Minas Gerais, oferecendo ao usuário uma navegação intuitiva e visualmente atrativa.
 
-━━━━━━━━━━ Ouro Preto ━━━━━━━━━━
-   • Museu da Inconfidência
-   • Igreja de São Francisco de Assis
-   • Mina do Chico Rei
+O site apresenta seis cidades mineiras, cada uma com seus atrativos culturais, naturais e históricos, fornecendo descrições, imagens e informações relevantes para quem deseja conhecer ou planejar uma visita ao estado.
 
-━━━━━━━━━━ Viçosa ━━━━━━━━━━
-   • Mata do Paraíso
-   • Praça Silviano Brandão
-   • Mirante do Cristo
+> 🌐 Acesse o projeto publicado em: [melodious-kringle-a5b6b6.netlify.app](https://melodious-kringle-a5b6b6.netlify.app/)
 
-━━━━━━━━━━ Uberlândia ━━━━━━━━━━
-   • Parque do Sabiá
-   • Parque Municipal Victório Siquierolli
-   • Museu Municipal de Uberlândia
+---
 
-━━━━━━━━━━ Poços de Caldas ━━━━━━━━━━
-   • Cristo Redentor de Poços de Caldas
-   • Fonte dos Amores
-   • Cachoeira Véu das Noivas
+## 2. Objetivos
 
-━━━━━━━━━━ Nova Lima ━━━━━━━━━━
-   • Lagoa dos Ingleses
-   • Serra da Calçada
-   • Mina da Passagem
+- Desenvolver um site funcional utilizando HTML, CSS e JavaScript;
+- Aplicar na prática os conceitos de desenvolvimento web front-end;
+- Criar uma experiência de usuário fluida, com navegação por âncoras e estrutura hierárquica de páginas;
+- Promover o turismo em Minas Gerais por meio de uma plataforma digital acessível e informativa;
+- Estimular o trabalho colaborativo e a divisão de responsabilidades em equipe no desenvolvimento de software.
 
-━━━━━━━━━━ Alto Caparaó ━━━━━━━━━━
-   • Pico da Bandeira
-   • Parque Nacional do Caparaó
-   • Vale Encantado
+---
 
-━━━━━━━━━━ Montes Claros ━━━━━━━━━━
-   • Parque Estadual da Lapa Grande
-   • Parque Municipal Milton Prates
-   • Catedral Metropolitana Nossa Senhora Aparecida
+## 3. Público-Alvo
 
-━━━━━━━━━━ Governador Valadares ━━━━━━━━━━
-   • Pico da Ibituruna
-   • Parque Natural Municipal de Governador Valadares
-   • Ilha dos Araújos
+O site é voltado para turistas, moradores de Minas Gerais e qualquer pessoa residente no Brasil que tenha interesse em conhecer as riquezas culturais, históricas e naturais do estado. A plataforma foi pensada para ser acessível a usuários de diferentes perfis, sem exigir conhecimento técnico para a navegação.
 
-━━━━━━━━━━ Diamantina ━━━━━━━━━━
-   • Casa de Juscelino
-   • Catedral Metropolitana de Santo Antônio
-   • Vila do Biribiri
+---
 
+## 4. Tecnologias Utilizadas
 
-◆ Footer
-   • "Formulário";
-   • E-mail da pessoa;
-   • Sugestão de uma cidade;
+| Tecnologia | Finalidade |
+|---|---|
+| HTML5 | Estrutura e marcação do conteúdo das páginas |
+| CSS3 | Estilização, layout e animações |
+| JavaScript | Interatividade e comportamento dinâmico |
+| Git e GitHub | Controle de versão e hospedagem do repositório |
+| Netlify | Plataforma de deploy e hospedagem do site |
 
+> Nenhuma biblioteca ou framework externo foi utilizado, respeitando o escopo acadêmico da disciplina.
 
-✦ PÁGINAS DAS CIDADES
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+---
 
-◆ Header Fixo;
+## 5. Estrutura do Projeto
 
-◆ Grande imagem do ponto turístico
-   • (Mesma foto do flash-card);
+```
+Circuito-Mineiro/
+|
+|-- index.html                  (landing page)
+|-- pagPrincipal.html           (página home)
+|
+|-- pages/
+|   |-- belo_horizonte.html
+|   |-- diamantina.html
+|   |-- governador_valadares.html
+|   |-- nova_lima.html
+|   |-- ouro_preto.html
+|   |-- uberlandia.html
+|   |-- sobre_nos.html
+|   `-- sugestao.html
+|
+|-- css/
+|   |-- style.css
+|   |-- style_cidades.css
+|   |-- style_lading_page.css
+|   |-- style_sobre.css
+|   `-- style_sugestao.css
+|
+|-- js/
+|   |-- calculo.js
+|   `-- modal.js
+|
+|-- image/
+|   `-- (fotos diversas)
+```
 
-◆ Pequena descrição da cidade;
+---
 
-◆ Pontos turísticos [3-5]
-   • Imagem à direita e descrição à esquerda (inverter a cada ponto turístico apresentado);
+## 6. Funcionalidades
 
-◆ Footer
-   • "Formulário";
-   • E-mail da pessoa;
-   • Sugestão de um ponto turístico;
+- Landing page introdutória que apresenta o site ao usuário antes de redirecioná-lo à página home;
+- Página home com mapa interativo e clicável de Minas Gerais, com marcadores nas seis cidades cadastradas;
+- Flash-cards das cidades que direcionam o usuário à página de cada cidade;
+- Páginas individuais por cidade com imagem de destaque, descrição contextual e apresentação alternada dos pontos turísticos (imagem e texto alternando entre esquerda e direita a cada item);
+- Âncora "About Us" na página home que direciona para a página sobre a equipe;
+- Formulário de sugestões disponível para o usuário enviar indicações de cidades ou pontos turísticos;
+- Header fixo com navegação por âncoras em todas as páginas.
 
+---
 
-✦ ÚLTIMA PÁGINA
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## 7. Organização das Páginas
 
-◆ Header Fixo;
+**🔹 Landing Page** (`index.html`)  
+Primeira página que o usuário vê ao acessar o site. Apresenta uma visão geral do Circuito-Mineiro e convida o usuário a explorar o conteúdo, redirecionando-o para a página home.
 
-◆ Descrição que somos uma equipe,
-  FUMEC, 1º período, curtimos bastante programação...;
+**🔹 Página Home** (`pagPrincipal.html`)  
+Página central de navegação do site. Contém o mapa clicável de Minas Gerais com marcadores nas cidades disponíveis e flash-cards que direcionam o usuário para a página da cidade escolhida. O header possui âncoras para Deixe sua sugestão e About Us.
 
-◆ Apresentação de cada um
-   • (Feita em retângulos)
+**🔹 Páginas das Cidades** — 6 páginas (`pages/cidade.html`)  
+Cada página apresenta imagem de destaque da cidade, breve descrição e 3 pontos turísticos com imagem e texto alternando entre esquerda e direita a cada item. O footer contém formulário de sugestão de pontos turísticos.
 
-   - Imagem;
-   - Função no trabalho;
-   - Breve descrição;
+**🔹 Página Sobre Nós** (`pages/sobre_nos.html`)  
+Acessada pela âncora "About Us" na página home. Apresenta a equipe de desenvolvimento com cartões individuais contendo foto, função no projeto e breve descrição de cada membro.
 
+**🔹 Página de Sugestões** (`pages/sugestao.html`)  
+Formulário dedicado para o usuário enviar sugestões de cidades ou pontos turísticos ao time.
 
-✦ RESUMO DO LAYOUT
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+---
 
-▸ 1ª Página
-   • Header (âncoras)
-   • Mapa clicável (âncora)
-   • Cidades (flash-cards)
-   • Footer-cidades (forms)
+## 8. Cidades e Pontos Turísticos
 
-▸ 2ª, 3ª, 4ª, 5ª, 6ª, 7ª, 8ª, 9ª, 10ª e 11ª Páginas
-   • Header (âncoras)
-   • Imagem
-   • Descrição
-   • Pontos turísticos [3-5]
-   • Footer-pontos-turísticos (forms)
+| Cidade | Pontos Turísticos |
+|---|---|
+| 📍 Belo Horizonte | Lagoa da Pampulha · Praça da Liberdade · Palácio das Artes |
+| 📍 Ouro Preto | Museu da Inconfidência · Igreja de São Francisco de Assis · Mina do Chico Rei |
+| 📍 Uberlândia | Parque do Sabiá · Parque Municipal Victório Siquierolli · Museu Municipal de Uberlândia |
+| 📍 Nova Lima | Lagoa dos Ingleses · Serra da Calçada · Mina da Passagem |
+| 📍 Governador Valadares | Pico da Ibituruna · Parque Natural Municipal de Governador Valadares · Ilha dos Araújos |
+| 📍 Diamantina | Casa de Juscelino · Catedral Metropolitana de Santo Antônio · Vila do Biribiri |
 
-▸ 12ª Página
-   • Header (âncoras)
-   • Descrição
-   • Apresentação de cada Dev
+---
+
+## 9. Como Executar o Projeto
+
+O site já está publicado e pode ser acessado diretamente em:  
+🌐 [melodious-kringle-a5b6b6.netlify.app](https://melodious-kringle-a5b6b6.netlify.app/)
+
+Para acessar o repositório no GitHub:
+🌐 https://github.com/LuccaMC/Circuito-Mineiro.git
+
+---
+
+## 10. Equipe
+
+Projeto desenvolvido por estudantes do 1º período de Ciência da Computação da FUMEC — Fundação Mineira de Educação e Cultura, Belo Horizonte, MG.
+
+| Integrante | Função | Descrição |
+|---|---|---|
+| 👤 Lucca Mattos | Tech-Líder | Responsável por coordenar a equipe, organizar o desenvolvimento do projeto e garantir que todas as partes trabalhem em conjunto para que o resultado final funcione de forma integrada e eficiente. |
+| 👤 Maurício Lima | Front-end 1 | Principal responsável pela estruturação das páginas com HTML e pela estilização com CSS, transformando ideias em interfaces claras, organizadas e funcionais. |
+| 👤 Daniel Silva | Front-end 2 | Responsável pela construção da base do código e pela implementação da responsividade, criando uma estrutura sólida que facilita a manutenção, expansão e integração dos recursos do projeto. |
+| 👤 Júlio Cesar | Copywriter & Designer | Responsável pela criação dos textos, identidade visual e materiais gráficos do projeto, desenvolvendo conteúdos e imagens que fortalecem a comunicação com o público. |
+
+---
+
+*FUMEC · Ciência da Computação · 1º Período · 2025*
+
