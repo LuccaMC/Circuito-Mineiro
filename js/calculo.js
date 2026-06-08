@@ -38,21 +38,38 @@ function calcularViagem() {
 
     // MOSTRAR RESULTADO
 
-    document.getElementById("resultado").innerHTML =
+    document.getElementById("resultado").innerHTML = `
 
-        ` <h3>Resultado da Viagem</h3>
+    <table class="tabela-resultado">
 
-        <p>🚗 Transporte: R$ ${transporteTotal.toFixed(2)}</p>
+        <tr>
+            <th>Tipo</th>
+            <th>Valor</th>
+        </tr>
 
-        <p>🏨 Hospedagem: R$ ${hospedagem.toFixed(2)}</p>
+        <tr>
+            <td>🚗 Transporte</td>
+            <td>R$ ${transporteTotal.toFixed(2)}</td>
+        </tr>
 
-        <p>🍔 Alimentação: R$ ${alimentacao.toFixed(2)}</p>
+        <tr>
+            <td>🏨 Hospedagem</td>
+            <td>R$ ${hospedagem.toFixed(2)}</td>
+        </tr>
 
-        <hr>
+        <tr>
+            <td>🍔 Alimentação</td>
+            <td>R$ ${alimentacao.toFixed(2)}</td>
+        </tr>
 
-        <p><strong>TOTAL: R$ ${total.toFixed(2)}</strong></p>`
+        <tr class="total">
+            <td><strong>Total</strong></td>
+            <td><strong>R$ ${total.toFixed(2)}</strong></td>
+        </tr>
 
-        ;
+    </table>
+
+`;
 }
 
 function limparResultado() {

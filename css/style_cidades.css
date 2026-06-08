@@ -531,6 +531,44 @@ h2 {
     margin: 15px 0;
 }
 
+.tabela-resultado {
+    width: 100%;
+
+    border-collapse: collapse;
+
+    margin-top: 10px;
+}
+
+.tabela-resultado th {
+    background-color: #037559;
+
+    color: white;
+
+    padding: 12px;
+
+    font-size: 15px;
+}
+
+.tabela-resultado td {
+    padding: 12px;
+
+    border-bottom: 1px solid #e5e7eb;
+
+    text-align: center;
+
+    color: #374151;
+}
+
+.tabela-resultado tr:hover {
+    background-color: #f3f4f6;
+}
+
+.total {
+    background-color: #ecfdf5;
+
+    font-size: 17px;
+}
+
 
 /* RESPONSIVO */
 

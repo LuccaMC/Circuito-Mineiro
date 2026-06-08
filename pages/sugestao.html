@@ -7,6 +7,9 @@
     <title>Sugestão da cidade</title>
     <link rel="stylesheet" href="../css/style_sugestao.css">
     <link rel="icon" type="image/png" href="../image/logo_site.png">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
 </head>
 
 <body>
@@ -25,18 +28,18 @@
 
     <h2>Deixe aqui a sugestão da cidade que você quer conhecer</h2>
 
-    <form action="#" method="get">
+    <form method="get">
         <label for="nome">Informe seu nome:</label><br>
-        <input type="text" id="nome" placeholder="Informar nome"><br><br>
+        <input type="text" name="nome" placeholder="Informar nome"><br><br>
 
         <label for="nome">Informe seu Email:</label><br>
-        <input type="text" id="nome" placeholder="Informar email"><br><br>
+        <input type="text" name="email" placeholder="Informar email"><br><br>
 
         <label for="nome">Informe seu telefone para contato:</label><br>
-        <input type="number" id="telefone" placeholder="(00)0 0000-0000"><br><br>
+        <input type="text" id="telefone" name="telefone" placeholder="(00)0 0000-0000"><br><br>
 
         <label for="nome">Informe a cidade que você deseja ver no site:</label><br>
-        <input type="text" id="nome" placeholder="Sugestão de cidade"><br><br>
+        <input type="text" name="sugestao" placeholder="Sugestão de cidade"><br><br>
 
         <button type="submit">Enviar sugestão</button>
         <button type="reset">Limpar formulário</button>
@@ -47,5 +50,15 @@
         <p class="cor">Ajude-nos a expandir nosso guia turísticos de Minas Gerais!</p>
     </footer>
 </body>
+
+<script>
+
+    $(document).ready(function () {
+
+        $('#telefone').mask('(00) 00000-0000');
+
+    });
+
+</script>
 
 </html>

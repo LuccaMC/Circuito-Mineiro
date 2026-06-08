@@ -31,7 +31,7 @@
     <h3>Mapa Interativo</h3>
     <p>clique nos marcadores para conhecer cada cidade</p>
 
-    <img class="mapa" usemap="#mapaMinas" src="image/mapa_minas.png.png" alt="Mapa de Minas Gerais">
+    <img class="mapa" id="mapa-img" usemap="#mapaMinas" src="image/mapa_minas.png.png" alt="Mapa de Minas Gerais">
 
     <map name="mapaMinas">
         <area shape="circle" coords="323,267,23" href="pages/belo_horizonte.html" alt="Belo Horizonte">
@@ -123,5 +123,46 @@
     </footer>
 
 </body>
+
+<script>window.onload = function () {
+
+    const img = document.getElementById("mapa-img");
+
+    const areas = document.querySelectorAll("area");
+
+    // Coordenadas ORIGINAIS
+    const originalCoords = [
+    "323,267,23", // Belo Horizonte
+    "356,307,23", // Nova Lima
+    "150,247,23", // Uberlândia
+    "278,191,23", // Diamantina
+    "300,315,23", // Ouro Preto
+    "421,220,24"  // Governador Valadares
+];
+
+    function resizeMap() {
+
+        const larguraOriginal = 540;
+
+        const proporcao = img.clientWidth / larguraOriginal;
+
+        areas.forEach((area, index) => {
+
+            let coords = originalCoords[index]
+                .split(",")
+                .map(Number);
+
+            let novasCoords = coords.map(coord =>
+                Math.round(coord * proporcao)
+            );
+
+            area.coords = novasCoords.join(",");
+        });
+    }
+
+    resizeMap();
+
+    window.addEventListener("resize", resizeMap);
+};</script>
 
 </html>

@@ -38,12 +38,9 @@ header {
 .mapa {
     display: block;
     width: 540px;
+    max-width: 95%;
     margin: 40px auto 80px auto;
-    border-radius: 15px;
-}
-
-.mapa:hover {
-    transform: scale(1.02);
+    border-radius: 15px;    
 }
 
 .links {
