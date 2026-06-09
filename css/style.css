@@ -40,7 +40,7 @@ header {
     width: 540px;
     max-width: 95%;
     margin: 40px auto 80px auto;
-    border-radius: 15px;    
+    border-radius: 15px;
 }
 
 .links {
@@ -214,15 +214,10 @@ p {
 
 .btn {
     background-color: #037559;
-
     color: white;
-
     text-decoration: none;
-
     padding: 12px 22px;
-
     border-radius: 10px;
-
     transition: 0.3s;
 }
 
@@ -230,12 +225,48 @@ p {
     background-color: #025c46;
 }
 
+/* BOTÃO */
+
+.menu-toggle {
+    display: none;
+    font-size: 32px;
+    cursor: pointer;
+    color: #037559;
+}
+
+/* RESPONSIVO */
+
+@media (max-width: 768px) {
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .links {
+        display: none;
+        position: absolute;
+        top: 90px;
+        right: 20px;
+        background-color: white;
+        width: 220px;
+        border-radius: 12px;
+        padding: 20px;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .links.active {
+        display: flex;
+    }
+}
+
 /* RESPONSIVO */
 
 @media (max-width: 768px) {
 
     header {
-        flex-direction: column;
+        display: flex;
         gap: 20px;
     }
 

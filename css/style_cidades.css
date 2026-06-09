@@ -569,10 +569,51 @@ h2 {
     font-size: 17px;
 }
 
+/* BOTÃO */
+
+.menu-toggle {
+    display: none;
+    font-size: 32px;
+    cursor: pointer;
+    color: #037559;
+}
+
+/* RESPONSIVO */
+
+@media (max-width: 768px) {
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .links {
+        display: none;
+        position: absolute;
+        top: 90px;
+        right: 20px;
+        background-color: white;
+        width: 220px;
+        border-radius: 12px;
+        padding: 20px;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .links.active {
+        display: flex;
+    }
+}
+
 
 /* RESPONSIVO */
 
 @media (max-width: 900px) {
+
+    header {
+        display: flex;
+        gap: 20px;
+    }
 
     .bloco {
         flex-direction: column;

@@ -15,7 +15,11 @@
 
         <img class="logo" src="image/logo_site.png" alt="logo do site">
 
-        <div class="links">
+        <div class="menu-toggle" id="menu-toggle">
+            ☰
+        </div>
+
+        <div class="links" id="links">
             <a href="pages/sobre_nos.html">Sobre Nós</a>
             <a href="#finalpag">Deixe sua Sugestão</a>
         </div>
@@ -124,45 +128,62 @@
 
 </body>
 
-<script>window.onload = function () {
+<script>
 
-    const img = document.getElementById("mapa-img");
+    // responsividade do mapa clicável
 
-    const areas = document.querySelectorAll("area");
+    window.onload = function () {
 
-    // Coordenadas ORIGINAIS
-    const originalCoords = [
-    "323,267,23", // Belo Horizonte
-    "356,307,23", // Nova Lima
-    "150,247,23", // Uberlândia
-    "278,191,23", // Diamantina
-    "300,315,23", // Ouro Preto
-    "421,220,24"  // Governador Valadares
-];
+        const img = document.getElementById("mapa-img");
+        const areas = document.querySelectorAll("area");
 
-    function resizeMap() {
+        // Coordenadas ORIGINAIS
+        const originalCoords = [
+            "323,267,23", // Belo Horizonte
+            "356,307,23", // Nova Lima
+            "150,247,23", // Uberlândia
+            "278,191,23", // Diamantina
+            "300,315,23", // Ouro Preto
+            "421,220,24"  // Governador Valadares
+        ];
 
-        const larguraOriginal = 540;
+        function resizeMap() {
 
-        const proporcao = img.clientWidth / larguraOriginal;
+            const larguraOriginal = 540;
 
-        areas.forEach((area, index) => {
+            const proporcao = img.clientWidth / larguraOriginal;
 
-            let coords = originalCoords[index]
-                .split(",")
-                .map(Number);
+            areas.forEach((area, index) => {
 
-            let novasCoords = coords.map(coord =>
-                Math.round(coord * proporcao)
-            );
+                let coords = originalCoords[index]
+                    .split(",")
+                    .map(Number);
 
-            area.coords = novasCoords.join(",");
-        });
-    }
+                let novasCoords = coords.map(coord =>
+                    Math.round(coord * proporcao)
+                );
 
-    resizeMap();
+                area.coords = novasCoords.join(",");
+            });
+        }
 
-    window.addEventListener("resize", resizeMap);
-};</script>
+        resizeMap();
+
+        window.addEventListener("resize", resizeMap);
+    };
+
+    //método hamburger para celulares
+
+    const menuToggle = document.getElementById("menu-toggle");
+
+    const links = document.getElementById("links");
+
+    menuToggle.addEventListener("click", function () {
+
+        links.classList.toggle("active");
+
+    });
+
+</script>
 
 </html>

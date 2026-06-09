@@ -17,7 +17,11 @@
 
         <img class="logo" src="../image/logo_site.png" alt="logo do site">
 
-        <div class="links">
+        <div class="menu-toggle" id="menu-toggle">
+            ☰
+        </div>
+
+        <div class="links" id="links">
             <a href="../pagPrincipal.html">Home</a>
             <a href="#finalpag">Planeje sua Viagem</a>
             <a href="../pages/sobre_nos.html">Sobre Nós</a>
@@ -111,5 +115,20 @@
     </footer>
 
 </body>
+
+<script>
+    //método hamburger para celulares
+
+    const menuToggle = document.getElementById("menu-toggle");
+
+    const links = document.getElementById("links");
+
+    menuToggle.addEventListener("click", function () {
+
+        links.classList.toggle("active");
+
+    });
+
+</script>
 
 </html>

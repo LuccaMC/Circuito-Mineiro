@@ -18,7 +18,11 @@
 
         <img class="logo" src="../image/logo_site.png" alt="logo do site">
 
-        <div class="links">
+        <div class="menu-toggle" id="menu-toggle">
+            ☰
+        </div>
+
+        <div class="links" id="links">
             <a href="../pagPrincipal.html">Home</a>
             <a href="../pages/sobre_nos.html">Sobre Nós</a>
         </div>
@@ -53,9 +57,23 @@
 
 <script>
 
+    //máscara
+
     $(document).ready(function () {
 
         $('#telefone').mask('(00) 00000-0000');
+
+    //método hamburger para celulares
+
+    const menuToggle = document.getElementById("menu-toggle");
+
+    const links = document.getElementById("links");
+
+    menuToggle.addEventListener("click", function () {
+
+        links.classList.toggle("active");
+
+    });
 
     });
 
