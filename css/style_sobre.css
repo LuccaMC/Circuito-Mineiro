@@ -11,6 +11,48 @@ body {
     line-height: 1.6;
 }
 
+.repositorio .linkgl {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.repositorio .linkgl .github a img {
+    width: 35px; 
+    height: 35px; 
+}
+
+.repositorio {
+    text-align: center;
+}
+
+.repositorio .linkgl .github a {
+    display: flex;
+
+    align-items: center;
+
+    gap: 1px;
+
+    text-decoration: none;       /* Remove o sublinhado padrão dos links */
+
+    padding: 8px 15px;           /* 8px em cima e embaixo, 15px na esquerda e direita */
+
+    border: 1px solid purple; 
+
+    border-radius: 5px;
+
+    color: purple;        
+
+    font-weight: bold;            /* Deixa o texto em negrito */
+}
+
+.repositorio .linkgl .github a:hover {
+    /* Quando o mouse passa por cima ele investe as cores (funciona através do :hover)*/
+    background-color: purple; 
+
+    color: white;              
+}
+
 /* HEADER */
 
 header {
@@ -44,6 +86,83 @@ header {
 
 .links a:hover {
     color: #037559;
+}
+
+/* Parte adicional github e linkdin */
+
+.conteudo p {
+    height: 205px;
+}
+
+.linkgl a img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.linkgl {
+    display: flex;
+
+    gap: 15px;                   /* Cria um espaço de 10px entre os links */
+
+    margin-top: 20px;
+
+    align-items: center;
+}
+
+.github a {
+    display: flex;
+
+    align-items: center;
+
+    gap: 1px;
+
+    text-decoration: none;       /* Remove o sublinhado padrão dos links */
+
+    padding: 8px 15px;           /* 8px em cima e embaixo, 15px na esquerda e direita */
+
+    border: 1px solid black; 
+
+    border-radius: 5px;
+
+    color: black;        
+
+    font-weight: bold;            /* Deixa o texto em negrito */
+}
+
+.github a:hover {
+    /* Quando o mouse passa por cima ele investe as cores (funciona através do :hover)*/
+    background-color: black; 
+
+    color: white;              
+}
+
+.linkedin a {
+    display: flex;
+
+    align-items: center;
+
+    gap: 1px;
+
+    text-decoration: none;       /* Remove o sublinhado padrão dos links */
+
+    padding: 8px 15px;           /* 8px em cima e embaixo, 15px na esquerda e direita */
+
+    border: 1px solid #0A66C2; 
+
+    border-radius: 5px;
+
+    color: #0A66C2;        
+
+    font-weight: bold;            /* Deixa o texto em negrito */
+}
+
+.linkedin a:hover {
+    /* Quando o mouse passa por cima ele investe as cores (funciona através do :hover)*/
+    background-color: #0A66C2; 
+
+    color: white;              
 }
 
 /* HERO */
