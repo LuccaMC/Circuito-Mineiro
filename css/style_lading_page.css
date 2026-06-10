@@ -1,5 +1,6 @@
 /* Remove margens padrão */
 * {
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,13 +10,18 @@
 header {
     width: 100%;
     background-color: white;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+
+    padding: 20px 8%;
+
     position: sticky;
-    z-index: 1000;
     top: 0;
+
+    z-index: 1000;
+
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
 
@@ -27,8 +33,7 @@ header {
 .links a {
     text-decoration: none;
     color: #333;
-    font-weight: bold;
-
+    font-weight: 600;
     transition: 0.3s;
 }
 
@@ -37,7 +42,7 @@ header {
 }
 
 .logo {
-    width: 180px;
+    width: 130px;
 }
 
 /* Área principal */
@@ -45,10 +50,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     min-height: 70vh;
-    
-    
     padding: 50px;
 }
 
@@ -67,38 +69,135 @@ header {
     font-size: 18px;
     margin-bottom: 25px;
     color: #333;
+    line-height: 1.6;
 }
 
 /* Botão */
 button {
     background-color: #d8a32d;
     color: white;
-
     border: none;
     padding: 15px 25px;
-
     border-radius: 5px;
-
     cursor: pointer;
+    font-size: 16px;
 }
 
-/* Imagem */
-.imagem {
-    width: 50%;
+button:hover {
+    background-color: #b8891f;
+    transition: 0.3s;
 }
 
-.imagem img {
-    width: 100%;
+
+/* Card de consultoria */
+.agdconsulta {
+    width: 45%;
+    background-color: white;
+    border: 1px solid #ddd;
     border-radius: 10px;
+    padding: 35px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.agdconsulta h1 {
+    font-size: 22px;
+    color: #0f2345;
+    text-align: left;
+}
+
+.agdconsulta .descricao {
+    font-size: 15px;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.agdconsulta .preco {
+    font-size: 32px;
+    font-weight: bold;
+    color: #037559;
+    text-align: left;
+}
+
+.agdconsulta .beneficio {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 16px 0;
+}
+
+.agdconsulta .beneficio p {
+    font-size: 15px;
+    color: #333;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.agdconsulta button {
+    width: 100%;
+    padding: 15px;
+    font-size: 15px;
+    background-color: #037559;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 4px;
+}
+
+.agdconsulta button:hover {
+    background-color: #11b411;
+    transition: 1.0s;
+}
+
+/* Seção de cards de benefícios */
+#markting {
+    display: flex;
+    gap: 30px;
+    padding: 60px 50px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #eee;
+}
+
+.card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 30px 20px;
+    gap: 12px;
+}
+
+.card img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+}
+
+.card h3 {
+    font-size: 18px;
+    color: #0f2345;
+}
+
+.card p {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.6;
 }
 
 /* Rodapé */
 footer {
-    background-color: #071d4a;
-    color: white;
-
+    background-color: #111827;
+    color: #b0b7c3;
     text-align: center;
-
     padding: 40px 20px;
 }
 
@@ -110,16 +209,12 @@ footer {
 .faixa {
     width: 100%;
     min-height: 400px;
-
     background: linear-gradient(rgba(3, 117, 89, 0.85),
             rgba(3, 117, 89, 0.85));
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     text-align: center;
-
     padding: 40px 20px;
 }

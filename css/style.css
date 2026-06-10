@@ -195,9 +195,15 @@ p {
 
 /* FOOTER */
 
-.rodape {
+.footerfixo {
     background-color: #111827;
-    padding: 60px 20px;
+    text-align: center;
+    padding: 7px 20px;
+}
+
+.rodape {
+    background-color: #19243b;
+    padding: 40px 20px 30px 20px;
     text-align: center;
 }
 
@@ -210,6 +216,7 @@ p {
 .cor {
     color: #b0b7c3;
     font-size: 16px;
+    text-align: center;
 }
 
 .btn {

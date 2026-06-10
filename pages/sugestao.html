@@ -23,8 +23,10 @@
         </div>
 
         <div class="links" id="links">
-            <a href="../pagPrincipal.html">Home</a>
+            <a href="../index.html">Início</a>
+            <a href="#finalpag">Deixe sua Sugestão</a>
             <a href="../pages/sobre_nos.html">Sobre Nós</a>
+            <a href="../pages/consultoria.html">Consultoria</a>
         </div>
 
     </header>
@@ -53,6 +55,12 @@
         <h3 class="color">Sugira uma Cidade</h3>
         <p class="cor">Ajude-nos a expandir nosso guia turísticos de Minas Gerais!</p>
     </footer>
+
+    <div class="footerfixo">
+        <br><br>
+        <p class="cor">Projeto acadêmico de Desenvolvimento Web — Circuito Mineiro © 2026</p>
+    </div>
+
 </body>
 
 <script>
@@ -63,17 +71,17 @@
 
         $('#telefone').mask('(00) 00000-0000');
 
-    //método hamburger para celulares
+        //método hamburger para celulares
 
-    const menuToggle = document.getElementById("menu-toggle");
+        const menuToggle = document.getElementById("menu-toggle");
 
-    const links = document.getElementById("links");
+        const links = document.getElementById("links");
 
-    menuToggle.addEventListener("click", function () {
+        menuToggle.addEventListener("click", function () {
 
-        links.classList.toggle("active");
+            links.classList.toggle("active");
 
-    });
+        });
 
     });
 

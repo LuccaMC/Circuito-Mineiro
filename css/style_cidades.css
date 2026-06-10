@@ -280,30 +280,28 @@ h2 {
 
 /* FOOTER */
 
-.rodape {
+.footerfixo {
     background-color: #111827;
     text-align: center;
-    padding: 60px 20px;
-    margin-top: 80px;
+    padding: 7px 20px;
 }
 
-.rodape hr {
-    border: none;
-    height: 1px;
-    background-color: rgba(255, 255, 255, 0.1);
-    width: 80%;
-    margin: 30px auto;
+.rodape {
+    background-color: #19243b;
+    text-align: center;
+    padding: 40px 20px 30px 20px;
 }
 
 .color {
     color: white;
-    font-size: 30px;
+    font-size: 32px;
     margin-bottom: 10px;
 }
 
 .cor {
     color: #cbd5e1;
-    margin-bottom: 25px;
+    margin-bottom: 16px;
+    text-align: center;
 }
 
 /* BOTÃO */

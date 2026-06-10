@@ -53,6 +53,20 @@ body {
     color: white;              
 }
 
+/* FOOTER */
+
+.footerfixo {
+    background-color: #111827;
+    text-align: center;
+    padding: 14px 20px;
+}
+
+.cor {
+    color: #b0b7c3;
+    font-size: 16px;
+    text-align: center;
+}
+
 /* HEADER */
 
 header {
@@ -220,7 +234,8 @@ header {
 
 .mudcor {
     background-color: #eef2f7;
-    padding: 80px 20px;
+    padding: 33px;
+    text-align: center;
 }
 
 .mudcor h3 {
