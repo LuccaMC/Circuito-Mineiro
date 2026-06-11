@@ -71,7 +71,6 @@ Circuito-Mineiro/
 |-- index.html                  (página home)
 |
 |-- pages/
-|   |-- consultoria.html        (página marketing)
 |   |-- belo_horizonte.html
 |   |-- diamantina.html
 |   |-- governador_valadares.html
@@ -80,11 +79,14 @@ Circuito-Mineiro/
 |   |-- uberlandia.html
 |   |-- sobre_nos.html          (página sobre nós)
 |   `-- sugestao.html           (página dedicada ao formulario de sugestão)
+|   |-- consultoria.html        (página marketing)
+|   `-- contato.html            (página dedicada ao formulario de contato)
 |
 |-- css/
 |   |-- style.css
 |   |-- style_cidades.css
 |   |-- style_lading_page.css
+|   `-- style_contato.css
 |   |-- style_sobre.css
 |   `-- style_sugestao.css
 |
@@ -114,7 +116,10 @@ Acessada pela âncora "About Us" na página home. Apresenta a equipe de desenvol
 Formulário dedicado para o usuário enviar sugestões de cidades ou pontos turísticos ao time.
 
 **🔹 Landing Page** (`pages/consultoria.html`)  
-Página  em que o usuário é apresentado ao marketing da consultoria. Apresenta uma visão geral do Circuito-Mineiro e convida o usuário a comprar uma consultoria especializada para planejar sua viagem.
+Página em que o usuário é apresentado ao marketing da consultoria. Apresenta uma visão geral do Circuito-Mineiro e convida o usuário a comprar uma consultoria especializada para planejar sua viagem.
+
+**🔹 Página de Contato** (`pages/contato.html`)  
+Formulário dedicado para o usuário enviar o contato pessoal para receber a consultoria.
 
 ---
 
