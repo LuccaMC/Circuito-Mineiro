@@ -18,7 +18,7 @@
 5. [Estrutura do Projeto](#5-estrutura-do-projeto)
 6. [Organização das Páginas](#6-organização-das-páginas)
 7. [Cidades e Pontos Turísticos](#7-cidades-e-pontos-turísticos)
-8. [Como Executar o Projeto](#8-como-executar-o-projeto)
+8. [Como Acessar o Projeto](#8-como-acessar-o-projeto)
 9. [Equipe](#9-equipe)
 
 ---
@@ -131,10 +131,13 @@ Página  em que o usuário é apresentado ao marketing da consultoria. Apresenta
 
 ---
 
-## 8. Como Executar o Projeto
+## 9. Como Acessar o Projeto
 
 O site já está publicado e pode ser acessado diretamente em:  
 🌐 [melodious-kringle-a5b6b6.netlify.app](https://melodious-kringle-a5b6b6.netlify.app/)
+
+O projeto está documentado no GitHub e pode ser acessado diretamente em:
+🌐 [https://github.com/LuccaMC/Circuito-Mineiro](https://github.com/LuccaMC/Circuito-Mineiro)
 
 ---
 
