@@ -130,7 +130,7 @@ button[type="reset"]:hover {
 
 .rodape {
     margin-top: auto;
-    background-color: #111827;
+    background-color: #19243b;
     padding: 60px 20px;
     text-align: center;
 }
@@ -141,9 +141,16 @@ button[type="reset"]:hover {
     margin-bottom: 10px;
 }
 
+.footerfixo {
+    background-color: #111827;
+    text-align: center;
+    padding: 14px 20px;
+}
+
 .cor {
     color: #b0b7c3;
     font-size: 16px;
+    text-align: center;
 }
 
 /* BOTÃO */
