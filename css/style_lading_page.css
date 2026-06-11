@@ -218,3 +218,87 @@ footer {
     text-align: center;
     padding: 40px 20px;
 }
+
+/* BOTÃO */
+
+.menu-toggle {
+    display: none;
+    font-size: 32px;
+    cursor: pointer;
+    color: #037559;
+}
+
+@media (max-width: 768px) {
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .links {
+        display: none;
+        position: absolute;
+        top: 90px;
+        right: 20px;
+        background-color: white;
+        width: 220px;
+        border-radius: 12px;
+        padding: 20px;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .links.active {
+        display: flex;
+    }
+}
+
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: flex;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .banner {
+        flex-direction: column;
+        padding: 30px 20px;
+        gap: 40px;
+    }
+
+    .texto,
+    .agdconsulta {
+        width: 100%;
+    }
+
+    .texto h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .texto p,
+    .agdconsulta h1,
+    .agdconsulta .preco {
+        text-align: center;
+    }
+
+    #markting {
+        flex-direction: column;
+        padding: 40px 20px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .logo {
+        width: 100px;
+    }
+}

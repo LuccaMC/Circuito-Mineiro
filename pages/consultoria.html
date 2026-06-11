@@ -14,6 +14,9 @@
 
     <header>
         <img class="logo" src="../image/logo_site.png" alt="Logo">
+        <div class="menu-toggle" id="menu-toggle">
+            ☰
+        </div>
         <div class="links" id="links">
             <a href="../index.html">Início</a>
             <a href="../pages/sobre_nos.html">Sobre Nós</a>
@@ -55,7 +58,7 @@
                 <p>✔️ Economia de tempo na pesquisa</p>
             </div>
 
-            <button>Comece a planejar sua experiência em Minas Gerais.</button>
+            <a href="contato.html"><button>Comece a planejar sua experiência em Minas Gerais.</button></a>
 
         </div>
 
@@ -111,5 +114,17 @@
     </footer>
 
 </body>
+<script>
+    //método hamburger para celulares
 
+    const menuToggle = document.getElementById("menu-toggle");
+
+    const links = document.getElementById("links");
+
+    menuToggle.addEventListener("click", function () {
+
+        links.classList.toggle("active");
+
+    });
+</script>
 </html>

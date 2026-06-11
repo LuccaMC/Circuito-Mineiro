@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+
+    <link rel="stylesheet" href="../css/style_contato.css">
+    <link rel="icon" type="image/png" href="../image/logo_site.png">
+
+</head>
+
+<body>
+
+    <header>
+        <img class="logo" src="../image/logo_site.png" alt="Logo">
+        <div class="menu-toggle" id="menu-toggle">
+            ☰
+        </div>
+        <div class="links" id="links">
+            <a href="../index.html">Início</a>
+            <a href="../pages/sobre_nos.html">Sobre Nós</a>
+            <a href="../pages/consultoria.html">Consultoria</a>
+        </div>
+    </header>
+
+    <h2>Informe o seu nome e seu contato para podermos realizar a consultoria</h2>
+
+    <form method="get">
+        <label for="nome">Informe seu nome:</label><br>
+        <input type="text" name="nome" placeholder="Informar nome"><br><br>
+
+        <label for="nome">Informe seu Email:</label><br>
+        <input type="text" name="email" placeholder="Informar email"><br><br>
+
+        <label for="nome">Informe o seu número de telefone:</label><br>
+        <input type="text" id="telefone" name="telefone" placeholder="(00)0 0000-0000"><br><br>
+
+        <label for="orcamento">Orçamento aproximado:</label>
+        <select id="orcamento" name="orcamento">
+            <option selected disabled>Selecione uma opção</option>
+            <option>Até R$ 1.000</option>
+            <option>R$ 1.000 a R$ 3.000</option>
+            <option>R$ 3.000 a R$ 5.000</option>
+            <option>Acima de R$ 5.000</option>
+        </select>
+
+        <label for="mensagem">Observações</label>
+        <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+
+        <button type="submit">Enviar sugestão</button>
+        <button type="reset">Limpar formulário</button>
+    </form>
+
+    <footer>
+        <p>
+            Projeto acadêmico de Desenvolvimento Web — Circuito Mineiro © 2026
+        </p>
+    </footer>
+
+</body>
+
+<script>
+
+    //máscara
+
+    $(document).ready(function () {
+
+        $('#telefone').mask('(00) 00000-0000');
+
+        //método hamburger para celulares
+
+        const menuToggle = document.getElementById("menu-toggle");
+
+        const links = document.getElementById("links");
+
+        menuToggle.addEventListener("click", function () {
+
+            links.classList.toggle("active");
+
+        });
+
+    });
+
+</script>
+
+</html>
