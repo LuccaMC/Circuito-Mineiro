@@ -212,7 +212,7 @@ textarea:focus {
 @media (max-width: 768px) {
 
     header {
-        flex-direction: flex;
+        flex-direction: row;
         gap: 15px;
         padding: 15px;
     }
@@ -245,7 +245,7 @@ textarea:focus {
         text-align: center;
     }
 
-    #markting {
+    #markting {     
         flex-direction: column;
         padding: 40px 20px;
     }
