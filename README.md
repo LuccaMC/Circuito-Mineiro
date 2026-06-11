@@ -16,11 +16,10 @@
 3. [Público-Alvo](#3-público-alvo)
 4. [Tecnologias Utilizadas](#4-tecnologias-utilizadas)
 5. [Estrutura do Projeto](#5-estrutura-do-projeto)
-6. [Funcionalidades](#6-funcionalidades)
-7. [Organização das Páginas](#7-organização-das-páginas)
-8. [Cidades e Pontos Turísticos](#8-cidades-e-pontos-turísticos)
-9. [Como Executar o Projeto](#9-como-executar-o-projeto)
-10. [Equipe](#10-equipe)
+6. [Organização das Páginas](#7-organização-das-páginas)
+7. [Cidades e Pontos Turísticos](#8-cidades-e-pontos-turísticos)
+8. [Como Executar o Projeto](#9-como-executar-o-projeto)
+9. [Equipe](#10-equipe)
 
 ---
 
@@ -54,8 +53,8 @@ O site é voltado para turistas, moradores de Minas Gerais e qualquer pessoa res
 
 | Tecnologia | Finalidade |
 |---|---|
-| HTML5 | Estrutura e marcação do conteúdo das páginas |
-| CSS3 | Estilização, layout e animações |
+| HTML | Estrutura e marcação do conteúdo das páginas |
+| CSS | Estilização, layout e animações |
 | JavaScript | Interatividade e comportamento dinâmico |
 | Git e GitHub | Controle de versão e hospedagem do repositório |
 | Netlify | Plataforma de deploy e hospedagem do site |
@@ -69,18 +68,18 @@ O site é voltado para turistas, moradores de Minas Gerais e qualquer pessoa res
 ```
 Circuito-Mineiro/
 |
-|-- index.html                  (landing page)
-|-- pagPrincipal.html           (página home)
+|-- index.html                  (página home)
 |
 |-- pages/
+|   |-- consultoria.html        (página marketing)
 |   |-- belo_horizonte.html
 |   |-- diamantina.html
 |   |-- governador_valadares.html
 |   |-- nova_lima.html
 |   |-- ouro_preto.html
 |   |-- uberlandia.html
-|   |-- sobre_nos.html
-|   `-- sugestao.html
+|   |-- sobre_nos.html          (página sobre nós)
+|   `-- sugestao.html           (página dedicada ao formulario de sugestão)
 |
 |-- css/
 |   |-- style.css
@@ -95,28 +94,14 @@ Circuito-Mineiro/
 |
 |-- image/
 |   `-- (fotos diversas)
+|
+`-- document/
+    `-- (readme e licensa)
 ```
 
----
+## 6. Organização das Páginas
 
-## 6. Funcionalidades
-
-- Landing page introdutória que apresenta o site ao usuário antes de redirecioná-lo à página home;
-- Página home com mapa interativo e clicável de Minas Gerais, com marcadores nas seis cidades cadastradas;
-- Flash-cards das cidades que direcionam o usuário à página de cada cidade;
-- Páginas individuais por cidade com imagem de destaque, descrição contextual e apresentação alternada dos pontos turísticos (imagem e texto alternando entre esquerda e direita a cada item);
-- Âncora "About Us" na página home que direciona para a página sobre a equipe;
-- Formulário de sugestões disponível para o usuário enviar indicações de cidades ou pontos turísticos;
-- Header fixo com navegação por âncoras em todas as páginas.
-
----
-
-## 7. Organização das Páginas
-
-**🔹 Landing Page** (`index.html`)  
-Primeira página que o usuário vê ao acessar o site. Apresenta uma visão geral do Circuito-Mineiro e convida o usuário a explorar o conteúdo, redirecionando-o para a página home.
-
-**🔹 Página Home** (`pagPrincipal.html`)  
+**🔹 Página Home** (`index.html`)  
 Página central de navegação do site. Contém o mapa clicável de Minas Gerais com marcadores nas cidades disponíveis e flash-cards que direcionam o usuário para a página da cidade escolhida. O header possui âncoras para Deixe sua sugestão e About Us.
 
 **🔹 Páginas das Cidades** — 6 páginas (`pages/cidade.html`)  
@@ -128,9 +113,12 @@ Acessada pela âncora "About Us" na página home. Apresenta a equipe de desenvol
 **🔹 Página de Sugestões** (`pages/sugestao.html`)  
 Formulário dedicado para o usuário enviar sugestões de cidades ou pontos turísticos ao time.
 
+**🔹 Landing Page** (`pages/consultoria.html`)  
+Página  em que o usuário é apresentado ao arketing da consultoria. Apresenta uma visão geral do Circuito-Mineiro e convida o usuário a comprar uma consultoria especializada para planejar sua viagem.
+
 ---
 
-## 8. Cidades e Pontos Turísticos
+## 7. Cidades e Pontos Turísticos
 
 | Cidade | Pontos Turísticos |
 |---|---|
@@ -143,25 +131,22 @@ Formulário dedicado para o usuário enviar sugestões de cidades ou pontos tur�
 
 ---
 
-## 9. Como Executar o Projeto
+## 8. Como Executar o Projeto
 
 O site já está publicado e pode ser acessado diretamente em:  
 🌐 [melodious-kringle-a5b6b6.netlify.app](https://melodious-kringle-a5b6b6.netlify.app/)
 
-Para acessar o repositório no GitHub:
-🌐 https://github.com/LuccaMC/Circuito-Mineiro.git
-
 ---
 
-## 10. Equipe
+## 9. Equipe
 
 Projeto desenvolvido por estudantes do 1º período de Ciência da Computação da FUMEC — Fundação Mineira de Educação e Cultura, Belo Horizonte, MG.
 
 | Integrante | Função | Descrição |
 |---|---|---|
-| 👤 Lucca Mattos | Tech-Líder | Responsável por coordenar a equipe, organizar o desenvolvimento do projeto e garantir que todas as partes trabalhem em conjunto para que o resultado final funcione de forma integrada e eficiente. |
-| 👤 Maurício Lima | Front-end 1 | Principal responsável pela estruturação das páginas com HTML e pela estilização com CSS, transformando ideias em interfaces claras, organizadas e funcionais. |
-| 👤 Daniel Silva | Front-end 2 | Responsável pela construção da base do código e pela implementação da responsividade, criando uma estrutura sólida que facilita a manutenção, expansão e integração dos recursos do projeto. |
+| 👤 Lucca Mattos | Tech Lead | Responsável por coordenar a equipe, organizar o desenvolvimento do projeto e garantir que todas as partes trabalhem em conjunto para que o resultado final funcione de forma integrada e eficiente. |
+| 👤 Maurício Lima | Front-end  | Principal responsável pela estruturação das páginas com HTML e pela estilização com CSS, transformando ideias em interfaces claras, organizadas e funcionais. |
+| 👤 Daniel Silva | Front-end | Responsável pela construção da base do código e pela implementação da responsividade, criando uma estrutura sólida que facilita a manutenção, expansão e integração dos recursos do projeto. |
 | 👤 Júlio Cesar | Copywriter & Designer | Responsável pela criação dos textos, identidade visual e materiais gráficos do projeto, desenvolvendo conteúdos e imagens que fortalecem a comunicação com o público. |
 
 ---
