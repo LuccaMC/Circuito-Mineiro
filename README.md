@@ -131,12 +131,12 @@ Página  em que o usuário é apresentado ao marketing da consultoria. Apresenta
 
 ---
 
-## 9. Como Acessar o Projeto
+## 8. Como Acessar o Projeto
 
 O site já está publicado e pode ser acessado diretamente em:  
 🌐 [melodious-kringle-a5b6b6.netlify.app](https://melodious-kringle-a5b6b6.netlify.app/)
 
-O projeto está documentado no GitHub e pode ser acessado diretamente em:
+O projeto está documentado no GitHub e pode ser acessado diretamente em:  
 🌐 [https://github.com/LuccaMC/Circuito-Mineiro](https://github.com/LuccaMC/Circuito-Mineiro)
 
 ---
