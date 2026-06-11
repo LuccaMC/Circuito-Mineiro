@@ -16,10 +16,10 @@
 3. [Público-Alvo](#3-público-alvo)
 4. [Tecnologias Utilizadas](#4-tecnologias-utilizadas)
 5. [Estrutura do Projeto](#5-estrutura-do-projeto)
-6. [Organização das Páginas](#7-organização-das-páginas)
-7. [Cidades e Pontos Turísticos](#8-cidades-e-pontos-turísticos)
-8. [Como Executar o Projeto](#9-como-executar-o-projeto)
-9. [Equipe](#10-equipe)
+6. [Organização das Páginas](#6-organização-das-páginas)
+7. [Cidades e Pontos Turísticos](#7-cidades-e-pontos-turísticos)
+8. [Como Executar o Projeto](#8-como-executar-o-projeto)
+9. [Equipe](#9-equipe)
 
 ---
 
