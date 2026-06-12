@@ -1,6 +1,6 @@
 # 🏔️ Circuito-Mineiro — Site de Turismo em Minas Gerais
 
-🔗 **Site:** [melodious-kringle-a5b6b6.netlify.app](https://melodious-kringle-a5b6b6.netlify.app/)  
+🔗 **Site:** [https://luccamc.github.io/Circuito-Mineiro/](https://luccamc.github.io/Circuito-Mineiro/)  
 📁 **Repositório:** [github.com/LuccaMC/Circuito-Mineiro](https://github.com/LuccaMC/Circuito-Mineiro)  
 🏫 **Instituição:** Fundação Mineira de Educação e Cultura (FUMEC)  
 📚 **Curso:** Ciência da Computação — 1º Período  
@@ -29,7 +29,7 @@ O Circuito-Mineiro é um projeto acadêmico de desenvolvimento web criado por es
 
 O site apresenta seis cidades mineiras, cada uma com seus atrativos culturais, naturais e históricos, fornecendo descrições, imagens e informações relevantes para quem deseja conhecer ou planejar uma visita ao estado.
 
-> 🌐 Acesse o projeto publicado em: [melodious-kringle-a5b6b6.netlify.app](https://melodious-kringle-a5b6b6.netlify.app/)
+> 🌐 Acesse o projeto publicado em: [https://luccamc.github.io/Circuito-Mineiro/](https://luccamc.github.io/Circuito-Mineiro/)
 
 ---
 
@@ -139,7 +139,7 @@ Formulário dedicado para o usuário enviar o contato pessoal para receber a con
 ## 8. Como Acessar o Projeto
 
 O site já está publicado e pode ser acessado diretamente em:  
-🌐 [melodious-kringle-a5b6b6.netlify.app](https://melodious-kringle-a5b6b6.netlify.app/)
+🌐 [https://luccamc.github.io/Circuito-Mineiro/](https://luccamc.github.io/Circuito-Mineiro/)
 
 O projeto está documentado no GitHub e pode ser acessado diretamente em:  
 🌐 [https://github.com/LuccaMC/Circuito-Mineiro](https://github.com/LuccaMC/Circuito-Mineiro)
