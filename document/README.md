@@ -57,7 +57,7 @@ O site é voltado para turistas, moradores de Minas Gerais e qualquer pessoa res
 | CSS | Estilização, layout e animações |
 | JavaScript | Interatividade e comportamento dinâmico |
 | Git e GitHub | Controle de versão e hospedagem do repositório |
-| Netlify | Plataforma de deploy e hospedagem do site |
+| GitGub | Plataforma de deploy e hospedagem do site |
 
 > Nenhuma biblioteca ou framework externo foi utilizado, respeitando o escopo acadêmico da disciplina.
 
